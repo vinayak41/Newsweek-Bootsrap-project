@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Newsweek</title>
+</head>
+
+<body>
+    <div id="header" class="container-fluid row text-light p-3">
+        <div class="col-3">
+            <div>
+                <img src="https://g.newsweek.com/img/weather/38.png" alt="Thunder" class="weather-icon" width="24"
+                    height="24">
+                33° Pune,IN
+            </div>
+            <div>
+                Sat, Oct 10, 2020
+            </div>
+        </div>
+        <div class="col-5 m-auto">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
+                style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+                <g>
+                    <path class="st0"
+                        d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+                    </path>
+                </g>
+            </svg>
+        </div>
+        <div class="col-4 d-flex justify-content-center align-items-end">
+            <span><strong>LOGIN</strong></span>
+            &nbsp;&nbsp;&nbsp;
+            <span class="bg-warning text-dark rounded-pill px-3"><strong>SUBSCRIPTION OFFERS</strong> &nbsp;<i
+                    class="fas fa-angle-right"></i></span>
+        </div>
+    </div>
+
+    <ul id="nav-1" class="nav">
+        <li class="nav-item">
+            <a href="#" class="nav-link">U.S.</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">World</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Business</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Teck & Science</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Culture</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Newsgeek</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Sports</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Health</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">The Dabate</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Vantage</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">Weather</a>
+        </li>
+    </ul>
+
+    <nav id="nav-2" class="nav">
+        <li class="nav-item">
+            <a href="#" class="nav-link">TRENDING
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">DONALD TRUMP
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">JOE BIDEN
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">STIMULUS PACKAGE
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">CORONAVIRUS
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link">2020 ELECTION</a>
+        </li>
+    </nav>
+
+    <div id="main-section" class="row">
+        <div id="main-left-section" class="col-3">
+            <h6 class="gray-header">FEATURED STORIES</h6>
+            <div class="card">
+                <img src="https://d.newsweek.com/en/full/1649142/us-senator-lindsey-graham.jpg?w=397&h=265&q=90&f=0da658bf7372fbf6a5c2c35beb2f7bb4"
+                    alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">Sen. Graham Says Young Black People 'Can Go Anywhere' in S.C. if They're
+                        Republicans</h4>
+                    <p class="card-text">The senator was asked about race and police brutality during a revamped debate
+                        with Jaime Harrison.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://d.newsweek.com/en/full/1644568/microsoft-store-new-york.jpg?w=397&h=265&q=90&f=3e3b6b9722c631d124cea14d2bac75aa"
+                    alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">Dems Looking to Oust GOP Senators are Raking in Massive Amounts of Cash</h4>
+                    <p class="card-text">The massive cash hauls in the last three months come as waning poll numbers for
+                        President Trump and Republicans, as well as the political battle over the Supreme Court, have
+                        Democrats growing increasingly confident they can retake the upper chamber.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://d.newsweek.com/en/full/1649126/donald-trump.jpg?w=397&h=265&q=90&f=51a1240b994e781412b1e78e01c02b44"
+                    alt="" class="card-img-top">
+                <p class="card-body">
+                <h4 class="card-title">'I Divorced In April. Now I Live Across The World With A New Love'</h4>
+                <div class="card-text">On my last night in Australia, Christian asked if I really had to leave and
+                    explained that if I were to stay he'd like to show me more of Australia. A month later, we were
+                    still traveling around Australia in his camper van.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://d.newsweek.com/en/full/1649123/obama.jpg?w=397&h=265&q=90&f=650eabb6e30fd00aff90ca272fe1c55c"
+                    alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">Microsoft's New Permanent 'Remote Work Policy' Could Devastate Host
+                        Communities</h4>
+                    <p class="card-text">Microsoft's decision to allow employees to work remotely on a permanent basis
+                        is part of a trend that could lead to widespread economic changes. The areas surrounding
+                        corporate headquarters may see business closures and job losses.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://d.newsweek.com/en/full/1649111/trump-biden-debate.jpg?w=397&h=265&q=90&f=c81b3e676c1ba69c10dabfb0cad4ec05"
+                    alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">Donald Trump Says He's Off COVID Medication, Will Donate Plasma</h4>
+                    <p class="card-text">"I'm medication free which, frankly, makes me feel good," President Donald
+                        Trump said. "I don't like medication."</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://d.newsweek.com/en/full/1640720/university-saint-joseph.jpg?w=500&h=333&f=16ab70f1e99f1b15691f8eb8513ab6c4"
+                    alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">Leaders in Global Education 2020</h4>
+                    <p class="card-text">What does it take to be a leader in Global Education? What sets the best
+                        Universities apart from the others on the world stage? Find out more.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://d.newsweek.com/en/full/1641749/southern-university-science-technology-sustech.png?w=500&h=333&f=2c929054d07f72d1b7aeb4ff3c583d75"
+                    alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">America's Best Banks 2021</h4>
+                    <p class="card-text">Introducing Newsweek's first ranking of the financial institutions that best
+                        serve their customers' needs in today's challenging times.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://d.newsweek.com/en/full/1648617/americas-best-banks-2021.png?w=500&h=333&f=74c82cc715af044c22cf4532a60c043f"
+                    alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">World's Best Specialized Hospitals 2021</h4>
+                    <p class="card-text">In the first part of this special, we rank the best hospitals in cardiology,
+                        oncology and endocrinology.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://d.newsweek.com/en/full/1630878/best-online-shops-2021.png?w=500&h=333&f=46c7b25c74ea86488ef5b9c837c4f393"
+                    alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">Best Online Shops 2021</h4>
+                    <p class="card-text">Newsweek and Statista are recognizing 1,000 shops across 39 categories in eight
+                        groups.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://d.newsweek.com/en/full/1627222/americas-best-physical-rehabilitation-centers-2020.png?w=500&h=333&f=77ba5dea483fdf8b3cd3a4329fb0b853"
+                    alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">America's Best Physical Rehabilitation Centers 2020</h4>
+                    <p class="card-text">Finding reliable rehabilitation can be a challenge. We partnered with Statista
+                        to rank the country's Best Physical Rehabilitation Centers.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://d.newsweek.com/en/full/1617158/brandspark.png?w=500&h=333&f=50fc6ab9843ed86120b0dce671726563"
+                    alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">What Brands do You Trust the Most?</h4>
+                    <p class="card-text">Tell us for a chance to win. 2020 Brandspark Most Trusted Awards. Voted by
+                        consumers like you.</p>
+                </div>
+            </div>
+        </div>
+        <div id="middle-section" class="col-6">
+            <h6 class="gray-header">TOP STORY</h6>
+            <div class="card">
+                <img src="https://d.newsweek.com/en/full/1649157/donald-trump.jpg?w=591&h=364&f=777730c0aca8e8a65f647d406d61dee8"
+                    alt="" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        Trump to Go Ahead With 'Law and Order' Protest Amid D.C. Ban on Gatherings
+                    </h4>
+                    <p class="card-text">The president's schedule for Saturday suggests that he will deliver "remarks at
+                        a peaceful protest for law and order" at 2 p.m, despite COVID-19 regulations on mass gatherings
+                        remaining in place.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="media">
+                <img src="https://d.newsweek.com/en/full/1649144/president-donald-trump.jpg?w=95&h=95&f=d712a8ac18fdfe781fcdaf7614dc92d4"
+                    alt="" class="pr-2">
+                <div class="media-body">
+                    <h6 class="media-title"><strong>Trump Says He's Been Retested for COVID and Doesn't Know the
+                            Results</strong></h6>
+                    <p>President Trump also told Marc Siegel on Fox News that he did not have any trouble breathing.</p>
+                </div>
+            </div>
+            <h6 class="gray-header-small">MY TURN</h6>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="https://d.newsweek.com/en/full/1647856/castle-renovation-home-improvements-property-home.jpg?w=397&h=397&f=91fe2e26c0e05a47b1b9841fdaafc664"
+                        alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">We Renovated a 470-Year-Old Castle'</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://d.newsweek.com/en/full/1646981/wildlife-coyote-peterson-stings-bees.jpg?w=397&h=397&f=59f0ab5a6eafd874d699b95cd6019c70"
+                        alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">'I Get Dangerous Creatures to Bite and Sting Me on Purpose'</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://d.newsweek.com/en/full/1646357/coronavirus-pandemic-death-family.jpg?w=397&h=397&f=742d6559dd401252982aaf8aaf99ffc4"
+                        alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">'My Mom Died From COVID-19 With Strangers at Her Side'</p>
+                    </div>
+                </div>
+            </div>
+            <h6 class="gray-header-small">CULTURE & TRAVEL</h6>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="https://d.newsweek.com/en/full/1646134/singapore-airlines.jpg?w=397&h=397&f=cd1314e3605caada5183ae4917133d96"
+                        alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Missing Flying? Flights to Nowhere Take Off As a New Travel Trend</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://d.newsweek.com/en/full/1645381/100-best-rock-albums-all-time-according-critics.png?w=397&h=397&f=4fac5a43a9d8890fa4ae6281e59ace15"
+                        alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">100 Best Rock Albums of All Time, According to Critics</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://d.newsweek.com/en/full/1641887/cul-map-wes-anderson-white-cyclon-banner.jpg?w=397&h=397&l=57&t=47&f=e5942c36302659ac5aa06f4fe5a7f5f1"
+                        alt="" class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text">Plot an Escape Around the World With 'Accidentally Wes Anderson'</p>
+                    </div>
+                </div>
+            </div>
+            <h6 class="gray-header-small mt-5">MORE STORIES</h6>
+            <hr>
+            <div class="container-fluid">
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1649155/north-koreas-leader-kim-jong-un.jpg?w=95&h=95&f=174ab5e75108cf4d0a3a423e85eeb2bf"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat illum
+                            cum animi.</h6>
+                        <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita minus
+                            exercitationem totam vitae reprehenderit quos.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1648554/saint-paul-minnesota-protest.jpg?w=95&h=95&f=01ba63411ef986a093377223e1430d3f"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat illum
+                            cum animi.</h6>
+                        <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita minus
+                            exercitationem totam vitae reprehenderit quos.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1649143/texas-governor-greg-abbott.jpg?w=95&h=95&f=93308a3d41a370a8cef82913152bea8b"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat illum
+                            cum animi.</h6>
+                        <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita minus
+                            exercitationem totam vitae reprehenderit quos.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1649150/prince-harry-meghan-markle-commonwealth-day.jpg?w=95&h=95&f=8247b5ac814bda9c4b11dcfa060d61c6"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat illum
+                            cum animi.</h6>
+                        <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita minus
+                            exercitationem totam vitae reprehenderit quos.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1649143/texas-governor-greg-abbott.jpg?w=95&h=95&f=93308a3d41a370a8cef82913152bea8b"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat illum
+                            cum animi.</h6>
+                        <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita minus
+                            exercitationem totam vitae reprehenderit quos.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1649143/texas-governor-greg-abbott.jpg?w=95&h=95&f=93308a3d41a370a8cef82913152bea8b"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat illum
+                            cum animi.</h6>
+                        <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita minus
+                            exercitationem totam vitae reprehenderit quos.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1649150/prince-harry-meghan-markle-commonwealth-day.jpg?w=95&h=95&f=8247b5ac814bda9c4b11dcfa060d61c6"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat illum
+                            cum animi.</h6>
+                        <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita minus
+                            exercitationem totam vitae reprehenderit quos.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1649143/texas-governor-greg-abbott.jpg?w=95&h=95&f=93308a3d41a370a8cef82913152bea8b"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat illum
+                            cum animi.</h6>
+                        <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita minus
+                            exercitationem totam vitae reprehenderit quos.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1649143/texas-governor-greg-abbott.jpg?w=95&h=95&f=93308a3d41a370a8cef82913152bea8b"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat illum
+                            cum animi.</h6>
+                        <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita minus
+                            exercitationem totam vitae reprehenderit quos.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1649143/texas-governor-greg-abbott.jpg?w=95&h=95&f=93308a3d41a370a8cef82913152bea8b"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat illum
+                            cum animi.</h6>
+                        <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita minus
+                            exercitationem totam vitae reprehenderit quos.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1649143/texas-governor-greg-abbott.jpg?w=95&h=95&f=93308a3d41a370a8cef82913152bea8b"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat illum
+                            cum animi.</h6>
+                        <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita minus
+                            exercitationem totam vitae reprehenderit quos.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1649150/prince-harry-meghan-markle-commonwealth-day.jpg?w=95&h=95&f=8247b5ac814bda9c4b11dcfa060d61c6"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat illum
+                            cum animi.</h6>
+                        <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita minus
+                            exercitationem totam vitae reprehenderit quos.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1649143/texas-governor-greg-abbott.jpg?w=95&h=95&f=93308a3d41a370a8cef82913152bea8b"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat illum
+                            cum animi.</h6>
+                        <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita minus
+                            exercitationem totam vitae reprehenderit quos.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1648554/saint-paul-minnesota-protest.jpg?w=95&h=95&f=01ba63411ef986a093377223e1430d3f"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat illum
+                            cum animi.</h6>
+                        <p class="media-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita minus
+                            exercitationem totam vitae reprehenderit quos.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="right-section" class="col">
+            <h6 class="gray-header-small">THE DEBATE</h6>
+            <div class="the-debate">
+                <div class="media pt-3" style="border-top: 0.2rem solid rgb(199, 199, 199);">
+                    <img src="https://d.newsweek.com/en/full/1533434/swalwell2.png?w=150&h=150&f=b4925d53fde4dc49edb774ea5fdbadbd"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">The Time Is Now to Recommit to a National Assault Weapon Ban</h6>
+                        <p class="media-text">BY <strong>BY ERIC SWALWELL</strong></p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media pb-1" style="border-bottom: 0.2rem solid rgb(199, 199, 199);">
+                    <div class="media-body">
+                        <h6 class="media-title">So-Called 'Assault Weapon' Ban Is Unconstitutional Political
+                            Grandstanding
+                        </h6>
+                        <p class="media-text">BY <strong>BY JODY HICE</strong></p>
+                    </div>
+                    <img src="https://d.newsweek.com/en/full/1588887/jody-hice.png?w=150&h=150&f=5b179511d6277e3b46146f008b158157"
+                        alt="">
+                </div>
+            </div>
+            <div id="opinions">
+                <h6 class="gray-header-small mb-3">OPINION</h6>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1598655/mike-davis.png?w=63&h=63&f=088ec6cf79bb70275c7b6ac9e4f6d207"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">The Biden-Harris Radical Scheme to Pack the Supreme Court</h6>
+                        <p class="media-text">BY MIKE DAVIS</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1648372/james-dobson.png?w=63&h=63&f=83c340d6d49c46b08bfa3a574bda530b"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">November 3 Isn't Just an Election—It's a Fight for Freedom</h6>
+                        <p class="media-text">BY BONITA WILLIAMS</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1648372/james-dobson.png?w=63&h=63&f=83c340d6d49c46b08bfa3a574bda530b"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">
+                            End Corporate Privilege by Limiting Limited Liability</h6>
+                        <p class="media-text">BY VIVEK RAMASWAMY</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1648372/james-dobson.png?w=63&h=63&f=83c340d6d49c46b08bfa3a574bda530b"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">The War on Armenia Threatens American Interests</h6>
+                        <p class="media-text">BY VIVEK RAMASWAMY</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1648372/james-dobson.png?w=63&h=63&f=83c340d6d49c46b08bfa3a574bda530b"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">The War on Armenia Threatens American Interests</h6>
+                        <p class="media-text">BY VIVEK RAMASWAMY</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1648372/james-dobson.png?w=63&h=63&f=83c340d6d49c46b08bfa3a574bda530b"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">The War on Armenia Threatens American Interests</h6>
+                        <p class="media-text">BY VIVEK RAMASWAMY</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1648372/james-dobson.png?w=63&h=63&f=83c340d6d49c46b08bfa3a574bda530b"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">The War on Armenia Threatens American Interests</h6>
+                        <p class="media-text">BY VIVEK RAMASWAMY</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <img src="https://d.newsweek.com/en/full/1648372/james-dobson.png?w=63&h=63&f=83c340d6d49c46b08bfa3a574bda530b"
+                        alt="">
+                    <div class="media-body">
+                        <h6 class="media-title">The War on Armenia Threatens American Interests</h6>
+                        <p class="media-text">BY VIVEK RAMASWAMY</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div>
+                <div class="card">
+                    <img src="https://d.newsweek.com/en/full/1644076/americas-best-nursing-homes-2020.png?w=500&h=333&f=111d8839cccafaae6c19be7a5c9267ce" alt="" class="card-img-top">
+                    <div class="card-body p-4">
+                        <h6 class="card-title">America's Best Nursing Homes 2021</h6>
+                        <p class="card-text">In partnership with Statista, we established a ranking providing information and insights to help you during this challenging time.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://d.newsweek.com/en/full/1641122/university-arkansas-school-art.jpg?w=500&h=333&l=0&t=0&f=e1d305d4f1da240ef0d3a27b47adc818" alt="" class="card-img-top">
+                    <div class="card-body p-4">
+                        <h6 class="card-title">Who has the Leading Art, Design and Architecture Programs in 2020?</h6>
+                        <p class="card-text">The best Art, Design and Architecture schools use a recipe consisting of a blend of ingredients. Read more here.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://d.newsweek.com/en/full/1638920/image-3-this-startup-making.jpg?w=500&h=333&f=d3ab894bb4a4f0a8af53551fabfb306d" alt="" class="card-img-top">
+                    <div class="card-body p-4">
+                        <h6 class="card-title">This Startup Is Making Long Distance Real Estate Investing Possible for Millennials</h6>
+                        <p class="card-text">75% of Roofstock users are first-time real estate investors, and more than half are under 35.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://d.newsweek.com/en/full/1614497/kent-state-university.jpg?w=500&h=333&l=0&t=0&f=3f100dde6e02cf15ec688b100fa3f46a" alt="" class="card-img-top">
+                    <div class="card-body p-4">
+                        <h6 class="card-title">What Could a Career in Engineering or Computer Science Do For You?</h6>
+                        <p class="card-text">Could this be the perfect time for you to pursue a career in engineering or computer science? Find out how to get started.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://d.newsweek.com/en/full/1611414/herrman-herrman-pllc.jpg?w=500&h=333&f=69f37d2439e01f22d609736cf8b5f3cc" alt="" class="card-img-top">
+                    <div class="card-body p-4">
+                        <h6 class="card-title">What Makes the Best Lawyers Stand Out?</h6>
+                        <p class="card-text">The unthinkable has happened and you need a good lawyer to turn to, how do you chose?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://d.newsweek.com/en/full/1621635/americas-best-addiction-treatment-centers-2020.png?w=500&h=333&f=882d6618257cbde5fd5acc54362e6fe9" alt="" class="card-img-top">
+                    <div class="card-body p-4">
+                        <h6 class="card-title">America's Best Addiction Treatment Centers 2020</h6>
+                        <p class="card-text">America's Best Addiction Treatment Centers 2020</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

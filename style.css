@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Genericons';
+    src: url('fonts/Genericons.woff');
+}
+
+body {
+    max-width: 1200px;
+    margin: 0rem auto;
+    padding-top: 0rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.row {
+    margin: 0rem;
+}
+
+.weather-icon {
+    width: 1.4rem;
+}
+
+#header {
+    background-color: red;
+    fill: white;
+}
+
+.col-5 svg {
+    width: 23rem;
+}
+
+#nav-1.nav {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+}
+
+#nav-1 .nav-link {
+    color: black;
+    font-weight: bold;
+    border-right: 0.01rem solid rgb(224, 224, 224); 
+    line-height: 0.6rem;
+}
+
+#nav-2 {
+    border-top: 0.01rem solid rgb(224, 224, 224);
+    border-bottom: 0.01rem solid rgb(224, 224, 224);
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+#nav-2 .nav-link {
+    color: black;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: rgb(143, 143, 143);
+}
+
+
+
+/* ========== styling main section =========  */
+
+.gray-header {
+    font-weight: bold;
+    color: rgb(128, 128, 128);
+}
+
+.gray-header-small {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(128, 128, 128);
+    padding-top: unset;
+    margin: unset;
+    margin-top: 1rem;
+}
+
+#main-section {
+    margin-top: 1rem;
+    min-height: 50rem;
+}
+
+.card{
+    border: none;
+    border-radius: unset;
+    margin-top: 1rem;
+}
+.card-img-top{
+    border-radius: unset;
+}
+.card-body{
+    padding: unset;
+}
+.card-title{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+.card-text{
+    font-size: 0.8rem;
+    color: rgb(95, 95, 95);
+}
+
+.media-title {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.media-text {
+    font-size: 0.8rem;
+}
+
+.media > img {
+    margin-right: 1rem;
+}
+
+
+/* ---------- styling main-left section ----------  */
+
+
+
+/* ---------- styling middle section ----------  */
+
+
+
+/* ---------- styling right section ----------  */
+
+
+#right-section .media img {
+    max-width: 4rem;
+}
+
+#right-section .card {
+    border: 0.001rem solid rgb(156, 149, 149);
+}
