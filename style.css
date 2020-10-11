@@ -10,6 +10,8 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+/* ========== styling header ==========  */
+
 .row {
     margin: 0rem;
 }
@@ -54,6 +56,24 @@ body {
     color: rgb(143, 143, 143);
 }
 
+.bg-gray {
+    background-color: rgb(241, 241, 241);
+}
+.bg-red {
+    background-color: red;
+    color: white;
+}
+
+@media screen and (max-width: 1024px){
+    #header > div:nth-child(3) * {
+        display: none;
+    }
+}
+@media screen and (max-width: 766px){
+    #header > div:nth-child(1) * {
+        display: none;
+    }
+}
 
 
 /* ========== styling main section =========  */
@@ -118,7 +138,7 @@ body {
 
 /* ---------- styling middle section ----------  */
 
-
+ 
 
 /* ---------- styling right section ----------  */
 
@@ -129,4 +149,37 @@ body {
 
 #right-section .card {
     border: 0.001rem solid rgb(156, 149, 149);
+}
+
+/* ========== footer ========== */
+
+header > .nav.float-right a {
+    color: rgb(141, 141, 141);
+    font-size: 1.5rem;
+}
+
+footer > ul {
+    font-size: 0.8rem;
+    height: 1.8rem;
+    line-height: 0.8rem;
+    font-weight: bold;
+}
+footer  > ul a.nav-link {
+    padding-top: unset;
+    padding-bottom: unset;
+    border-right: 0.001rem solid rgb(201, 201, 201);
+    color: rgb(146, 146, 146);
+}
+
+.long-nav {
+    padding-top: unset;
+    padding-bottom: unset;
+    border-right: 0.001rem solid rgb(201, 201, 201);
+    color: rgb(146, 146, 146);
+    font-weight: 100;
+}
+
+.long-nav a {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
