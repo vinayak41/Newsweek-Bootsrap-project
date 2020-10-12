@@ -38,7 +38,7 @@ body {
 #nav-1 .nav-link {
     color: black;
     font-weight: bold;
-    border-right: 0.01rem solid rgb(224, 224, 224); 
+    border-right: 0.01rem solid rgb(224, 224, 224);
     line-height: 0.6rem;
 }
 
@@ -59,22 +59,23 @@ body {
 .bg-gray {
     background-color: rgb(241, 241, 241);
 }
+
 .bg-red {
     background-color: red;
     color: white;
 }
 
-@media screen and (max-width: 1024px){
-    #header > div:nth-child(3) * {
-        display: none;
-    }
-}
-@media screen and (max-width: 766px){
-    #header > div:nth-child(1) * {
+@media screen and (max-width: 1024px) {
+    #header>div:nth-child(3) * {
         display: none;
     }
 }
 
+@media screen and (max-width: 766px) {
+    #header>div:nth-child(1) * {
+        display: none;
+    }
+}
 
 /* ========== styling main section =========  */
 
@@ -97,23 +98,27 @@ body {
     min-height: 50rem;
 }
 
-.card{
+.card {
     border: none;
     border-radius: unset;
     margin-top: 1rem;
 }
-.card-img-top{
+
+.card-img-top {
     border-radius: unset;
 }
-.card-body{
+
+.card-body {
     padding: unset;
 }
-.card-title{
-    font-family: Arial,Helvetica,sans-serif;
+
+.card-title {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
     font-weight: 800;
 }
-.card-text{
+
+.card-text {
     font-size: 0.8rem;
     color: rgb(95, 95, 95);
 }
@@ -127,21 +132,9 @@ body {
     font-size: 0.8rem;
 }
 
-.media > img {
+.media>img {
     margin-right: 1rem;
 }
-
-
-/* ---------- styling main-left section ----------  */
-
-
-
-/* ---------- styling middle section ----------  */
-
- 
-
-/* ---------- styling right section ----------  */
-
 
 #right-section .media img {
     max-width: 4rem;
@@ -153,18 +146,19 @@ body {
 
 /* ========== footer ========== */
 
-header > .nav.float-right a {
+header>.nav.float-right a {
     color: rgb(141, 141, 141);
     font-size: 1.5rem;
 }
 
-footer > ul {
+footer>ul {
     font-size: 0.8rem;
     height: 1.8rem;
     line-height: 0.8rem;
     font-weight: bold;
 }
-footer  > ul a.nav-link {
+
+footer>ul a.nav-link {
     padding-top: unset;
     padding-bottom: unset;
     border-right: 0.001rem solid rgb(201, 201, 201);
@@ -182,4 +176,16 @@ footer  > ul a.nav-link {
 .long-nav a {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+}
+
+@media screen and (max-width:560px) {
+    #subscription p {
+        display: none;
+    }
+    #subscription h5 {
+        font-size: 1rem;
+    }
+    #subscription img {
+        display: none;
+    }
 }
